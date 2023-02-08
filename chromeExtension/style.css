@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.changeLength{
+    height: 30px;
+    width: 30px;
+}
+input,th{
+    width: 70px;
+}
+section{
+    margin-bottom: 30px;
+}
+#calc{
+    width: 40%;
+    display:block; margin: 0 auto;
+}

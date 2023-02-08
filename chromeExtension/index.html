@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grade Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="javascript.js"></script>
+</head>
+<body>
+    <article>
+        <h1>Grade Calculator</h1>
+        <table id="gradeTable">
+            <tr>
+                <th>Grade</th>
+                <th>Weighting (%)</th>
+            </tr>
+            <tr>
+                <td>
+                    <input type="number" class="grade" step="0.5" min="1" max="6">
+                </td>
+                <td>
+                    <input type="number" class="weight" step="10" min="0">
+                </td>
+            </tr>
+        </table>
+        <section>
+            <button id="addRow" class="changeLength">+</button>
+            <button id="deleteRow" class="changeLength">-</button>
+        </section>
+        <button id="calc">Calculate</button>
+        <p id="result">Result: </p>
+    </article>
+</body>
+</html>

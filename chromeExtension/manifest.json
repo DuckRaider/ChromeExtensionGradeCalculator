@@ -1,0 +1,11 @@
+{
+    "name": "Average Calculator",
+    "version": "1.0.0",
+    "description": "Calc. your average",
+    "manifest_version": 3,
+    "author": "Alessio Ferretti",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Grade Calculator"
+    }
+}
